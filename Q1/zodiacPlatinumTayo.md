@@ -1,6 +1,6 @@
 # Chinese Zodiac Activity
 ## Requirements:
-The requirements are to create a Python program that asks the user to input their birth year, with 1900 as the starting reference year. The program should check whether the entered year is valid. If the year is before 1900, it shoud display an error message and stop. For valid years, the program should be able to identify the user's Chinese zodiac sign based on their birth year. The zodiac cycle should start with Rat and continue in this order: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pic, repeating for 12 years.
+The requirements are to create a Python program that asks the user to input their birth year, with 1900 as the starting reference year. The program should check whether the entered year is valid. If the year is before 1900, it shoud display an error message and stop. For valid years, the program should be able to identify the user's Chinese zodiac sign based on their birth year. The zodiac cycle should start with Rat and continue in this order: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pic, repeating for 12 years.s
 
 ---
 ## Code
