@@ -1,0 +1,93 @@
+# Computational Thinking Excercise
+## Smart School Canteen Queue 
+**Name:** Miranda Terese R. Tayo
+
+**Section:** Platinum
+
+**Last Name:** Tayo
+
+**Date Completed:** August 21, 2026
+
+---
+
+## Step 1: Identify the Big Problem
+### Main Problem
+- The school canteen becomes too crowded as the lines move slowly because students are taking too long to order food, and the payment process is not well organized, making it harder to server the students quicly and efficiently.
+---
+## Step 2: Identify the Sub-Problems:
+1. Students consume too much time ordering
+2. Slow payment process
+3. No inventory tracking
+4. Unorganized system
+---
+## Step 3: Apply Computational Thinking Skills
+| **Sub-problem** | **CT Skill** | **Proposed Solution** |
+| :--- | :--- | :--- |
+| Students spend too much time deciding what to order, which slows down the queue. | Abstraction | Provide a simple menu showing the available food, prices, and short descriptions to help students decide quickly. |
+| Payment process takes too long and is prone to errors | Algorithm Design | Create a step-by-step system that calculates the total price, accepts the payment, and gives correct change. | 
+| Canteen does not have real-time way to track food inventory | Pattern Recognition | Track the quantity of each food item and give a warning when the stock reaches a low level. | 
+| The servic process if disorganized | Decomposition | Separare the process into ordering, payment, and pickup stages so students can follow an organized flow. | 
+
+---
+## Step 4: Algorithm Solution
+## Sub-Problem No. 3
+- Track the quantity of each food item and give a warning when the stock becomes low.
+
+### Pseudocode
+START
+Set the level to 10 items
+
+Check quantity of each food item
+
+IF quantity == 0 THEN
+
+    Display food item name
+    
+    Display "OUT OF STOCK"
+
+    Mark the food as unavailable and needs to be restocked
+
+ELIF quantity <= 5 THEN
+
+    Display food item name
+
+    Display "LOW STOCK"
+
+    Display the remaining quantity and label as low stock
+
+ELSE
+    
+    Display food item name
+
+    Display "AVAILABLE"
+
+    Display the remaining quantity
+
+END IF
+
+When student buys a food item:
+
+    Subtract the quantity purchased from current stock
+
+    Check the remaining stock
+
+IF remaining quantity <= 5 THEN
+    Display "WARNING: LOW STOCK"
+
+ELIF remaining quanity > 5 THEN
+
+    Display "STILL AVAILABLE"
+
+ELSE
+
+    remaining quantity = 0 THEN
+
+    Display "OUT OF STOCK"
+
+    Mark the food item as unavailable
+
+END IF
+
+Update the inventory
+
+END
