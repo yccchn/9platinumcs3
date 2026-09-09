@@ -26,7 +26,7 @@ Changes from my previous design:
 
 ## Updated UML Class Diagram
 
-![Class Diagram](images/classDiagramSG5.png)
+![Class Diagram](images/classDiagramSG5.png)![alt text](image-2.png)
 
 ## Python Implementation
 
@@ -34,11 +34,11 @@ Changes from my previous design:
 
 ## Test Run
 
-![Test Run](images/classTestRun.png)
+![Test Run](images/classTestRun.png) ![alt text](image-3.png)
 
 ## Object Diagram
 
-![Object Diagram](images/objectDiagram.png)
+![Object Diagram](images/objectDiagram.png) ![alt text](image-1.png)
 
 ## Analysis
 
