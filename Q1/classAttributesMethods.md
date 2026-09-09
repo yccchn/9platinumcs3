@@ -2,7 +2,7 @@
 
 ## Previous Design
 
-Link to my previous activity:
+Link to my previous activity: https://github.com/yccchn/9platinumcs3/blob/main/Q1/classObjectUML.md
 
 [classObjectUML.md](classObjectUML.md)
 
