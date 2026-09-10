@@ -3,6 +3,7 @@
 **Name:** Miranda Terese R. Tayo
 **Section:** Platinum
 **School Year:** 2026-2027
+**GCash:** 0960 560 8258
 
 ---
 # Quarter 1
