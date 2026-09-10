@@ -30,4 +30,6 @@ The association between my two classes is that missing your ex is part of moving
 I chose the one to many multiplicity. This is because when you are moving on from your ex you can both miss and not miss them. It could also be that you do not miss the person in general, but rather the memories and momens you have shared with them. 
 ### How did you implement the relationship in Python?
 ### Why did you store an object reference instead of copying its data?
+I stored the object reference instead of copying its data so that I can refer to it on future usage, making my work much more easier and organized.
 ### If your relationship uses many, why is a list appropriate?
+If my relationship uses many, a list is appropriate as it can help me organize, store, and find the data more efficiently. 
