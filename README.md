@@ -18,3 +18,5 @@
 [View my OOPACT Activity](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classObjectUML.md)
 ### SG5 - Class Attributes and Methods
 [View SG5 Activity](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classAttributesMethods.md)
+### OOPAct III
+[View my OOPACT Activity III](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classRelationships.md)
