@@ -28,10 +28,10 @@ Explanation: It is one-to-many because one MovingOnFromEx object can contain zer
 [View Python Source](classRelationships.py)
 
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+![Relationship Test Run](images/relationshipTestRun.png) ![alt text](image-3.png)
 
 ## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+![Object Relationship Diagram](images/objectRelationshipDiagram.png) ![alt text](image-2.png)
 
 ## Analysis
 
