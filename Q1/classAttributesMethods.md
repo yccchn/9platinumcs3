@@ -1,4 +1,4 @@
-# Class Attributes and Methods
+ # Class Attributes and Methods
 
 ## Previous Design
 
