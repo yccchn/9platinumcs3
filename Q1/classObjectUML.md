@@ -12,7 +12,7 @@ This class represents a person who still misses their former partner and the dif
 
 ## Methods
 | Method | Description |
-|--|--|--|
+|---|---|---|
 | reachOutOnHoliday(holiday: string) | Reaches out to the ex during a holiday |
 | messageLateAtNight() | Messages the ex late at night |
 | callOnBirthday() | Calls the ex on their birthday |
