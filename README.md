@@ -14,9 +14,11 @@
 [View my Chinese Zodiac Acitivity](https://github.com/yccchn/9platinumcs3/blob/main/Q1/zodiacPlatinumTayo.md)
 ### ILA 3-1: Applying the Four Pillars of OOP
 [View my ILA 3-1 Activity](https://github.com/yccchn/9platinumcs3/blob/main/Q1/ila_oop.md)
-### OOPAct
-[View my OOPACT Activity](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classObjectUML.md)
-### SG5 - Class Attributes and Methods
-[View SG5 Activity](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classAttributesMethods.md)
+### OOPAct I
+[View my OOPACT Activity I](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classObjectUML.md)
+### OOPACT II
+[View SG5 Activity II](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classAttributesMethods.md)
 ### OOPAct III
 [View my OOPACT Activity III](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classRelationships.md)
+### OOPAct IV
+[View my OOPAct Activity IV](https://github.com/yccchn/9platinumcs3/blob/main/Q1/advancedRelationships.md)
