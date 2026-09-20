@@ -4,6 +4,7 @@
 This class represents a person who still misses their former partner and the different actions they do because they miss their ex.
 ## Properties
 | Property | Data Type | Description |
+|---|---|---|
 | exName | string | Name of the ex |
 | endedWhen | string | When the relationship ended |
 | reasonForMissing | string | Why the person misses their ex |
@@ -11,6 +12,7 @@ This class represents a person who still misses their former partner and the dif
 
 ## Methods
 | Method | Description |
+|---|---|
 | reachOutOnHoliday(holiday: string) | Reaches out to the ex during a holiday |
 | messageLateAtNight() | Messages the ex late at night |
 | callOnBirthday() | Calls the ex on their birthday |
