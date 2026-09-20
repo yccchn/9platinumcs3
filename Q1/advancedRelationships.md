@@ -8,18 +8,18 @@ Parent: MissingYourEX
 Child: MovingOnFromEx
 Explanation: MovingOnFromEx is a more specific type of MissingYourEx because moving on can still involve missing a former partner. The MovingOnFromEx class can reuse the common attributes and methods of MissingYourEx while adding information related to the process of moving forward.
 ## Inheritance UML
-![Inheritance](images/inheritanceDiagram.png)
+![Inheritance](images/inheritanceDiagram.png) ![alt text](image-4.png)
 ## Composition/Aggregation
 Relationship: Composition
 Explanation: MovingOnFromEx has a strong HAS-A relationship with HealingAction. A HealingAction represents an action that is part of the moving-on process. In this system, the HealingAction objects are created and managed by MovingOnFromEx, so they belong to the MovingOnFromEx object.
 ## Advanced UML Diagram
-![Advanced UML](images/advancedClassDiagram.png)
+![Advanced UML](images/advancedClassDiagram.png) ![alt text](image-5.png)
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
 ![Test](images/advancedTestRun.png)
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+![Objects](images/advancedObjectDiagram.png) ![alt text](image-6.png)
 
 ## Reflection
 Answers:
