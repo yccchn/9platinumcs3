@@ -17,7 +17,7 @@ Explanation: MovingOnFromEx has a strong HAS-A relationship with HealingAction. 
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+![Test](images/advancedTestRun.png) ![alt text](image-7.png)
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png) ![alt text](image-6.png)
 
