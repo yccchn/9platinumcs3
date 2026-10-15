@@ -22,4 +22,7 @@
 [View my OOPACT Activity III](https://github.com/yccchn/9platinumcs3/blob/main/Q1/classRelationships.md)
 ### OOPAct IV
 [View my OOPAct Activity IV](https://github.com/yccchn/9platinumcs3/blob/main/Q1/advancedRelationships.md)
+
+# Quarter 2
 [View my SG8-Encapsulation Activity 3](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg8_encapsulation.py)
+[View my SG9-Inheritance Formative Assesment]()
