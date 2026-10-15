@@ -25,4 +25,4 @@
 
 # Quarter 2
 [View my SG8-Encapsulation Activity 3](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg8_encapsulation.py)
-[View my SG9-Inheritance Formative Assesment]()
+[View my SG9-Inheritance Formative Assesment](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg9_inheritance.py)
