@@ -1,83 +1,86 @@
-
-# Parent class for all publications
+# creates the parent class Publication
 class Publication:
     def __init__(self, title, author):
-        # Initialize private attributes
+        self.__title = title # stores the title
+        self.__author = author # stores the author
+
+    # gets the title
+    def get_title(self):
+        return self.__title
+
+    # gets the author
+    def get_author(self):
+        return self.__author
+
+    # updates the title
+    def set_title(self, title):
         self.__title = title
+
+    # updates the author
+    def set_author(self, author):
         self.__author = author
 
-    # Display publication information
+    # displays publication information
     def display_info(self):
-        print("Title:", self.__title)
-        print("Author:", self.__author)
+        print(f"Title: {self.__title}")
+        print(f"Author: {self.__author}")
 
-# Book class inherits from Publication
+# creates Book as a subclass of Publication
 class Book(Publication):
-    def __init__(self, title, author, number_pages):
-        # Initialize the parent class attributes
-        super().__init__(title, author)
+    def __init__(self, title, author, number_of_pages):
+        super().__init__(title, author) # initializes parent attributes
+        self.__number_of_pages = number_of_pages # stores page count
 
-        # Set the default number of pages
-        self.__number_pages = 0
-        self.set_number_of_pages(number_pages)
+    # gets the number of pages
+    def get_number_of_pages(self):
+        return self.__number_of_pages
 
-    # Validate and set the number of pages
-    def set_number_of_pages(self, number_pages):
-        if number_pages > 0:
-            self.__number_pages = number_pages
+    # updates the number of pages
+    def set_number_of_pages(self, number_of_pages):
+        if number_of_pages > 0: # checks if the page count is positive
+            self.__number_of_pages = number_of_pages
         else:
-            print("Number of pages must be positive")
+            print("Warning! Pages must be positive.")
 
-    # Display book information
-    def display_info(self):
-        super().display_info()
-        print("Number of pages:", self.__number_pages)
 
-# Magazine class inherits from Publication
+# creates Magazine as a subclass of Publication
 class Magazine(Publication):
     def __init__(self, title, author, issue_number):
-        # Initialize the parent class attributes
-        super().__init__(title, author)
+        super().__init__(title, author) # initializes parent attributes
+        self.__issue_number = issue_number # stores the issue number
 
-        # Set the default issue number
-        self.__issue_number = 0
-        self.set_issue_number(issue_number)
+    # gets the issue number
+    def get_issue_number(self):
+        return self.__issue_number
 
-    # Validate and set the issue number
+    # updates the issue number
     def set_issue_number(self, issue_number):
-        if issue_number > 0:
+        if issue_number > 0: # checks if the issue number is positive
             self.__issue_number = issue_number
         else:
-            print("Issue number must be positive")
-
-    # Display magazine information
-    def display_info(self):
-        super().display_info()
-        print("Issue number:", self.__issue_number)
+            print("Issue number must be positive.")
 
 
-# Create a Publication object
+# creates the objects
 pub1 = Publication(
     "Journal of Experimental Psychology",
-    "Ratchiff, R. & Van Dongen, H."
+    "Ratcliff, R. & Van Dongen, H."
 )
-
-# Create a Book object
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
-
-# Create a Magazine object
 mag1 = Magazine("National Geographic", "Various Authors", 202)
 
 
-# Display Publication information
-print("Publication Information:")
+# displays publication information
+print("Publication Information")
 pub1.display_info()
 
-# Display Book information and test invalid input
-print("\nBook Information:")
-book1.set_number_of_pages(-310)
+# displays book information
+print("\nBook Information")
+book1.set_number_of_pages(-670) # tests an invalid page count
 book1.display_info()
+print(f"Number of Pages: {book1.get_number_of_pages()}")
 
-# Display Magazine information
-print("\nMagazine Information:")
+# displays magazine information
+print("\nMagazine Information")
 mag1.display_info()
+print(f"Issue Number: {mag1.get_issue_number()}")
