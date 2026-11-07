@@ -28,4 +28,5 @@
 [View my SG8-Encapsulation Activity 3](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg8_encapsulation.py)
 ### SG9 - Inheritance
 [View my SG9-Inheritance Formative Assesment](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg9_inheritance.py)
+### SG10 - Method Overriding
 [View my SG10-Method Overriding](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg10_methodoverriding.py)
