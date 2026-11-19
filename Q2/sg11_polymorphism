@@ -10,3 +10,19 @@ class Patient:
     @property
     def bill_amount(self): #getter method for bill_amount
         return self.__bill_amount #returns the value of the private attribute bill_amount
+
+    def get_name(self): #getter method for name
+        return self.__name #returns the value of the private attribute name
+    def set_name(self, name): #setter method for name
+            self.__name = name #sets the value of the private attribute name
+            
+    def get_bill_amount(self): #getter method for bill_amount
+        return self.__bill_amount #returns the value of the private attribute bill_amount
+
+    def set_bill_amount(self, bill_amount): #setter method for bill_amount
+        if bill_amount < 0: #checks if the bill amount is negative
+            raise ValueError("Bill amount cannot be negative.") #raises a ValueError if the bill amount is negative
+        else:
+            self.__bill_amount = bill_amount #sets the value of the private attribute bill_amount
+
+    
