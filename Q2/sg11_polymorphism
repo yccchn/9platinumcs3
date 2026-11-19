@@ -1,0 +1,12 @@
+class Patient:
+    def __init__(self, name, bill amount): #defines the constructor of the class Patient
+        self.__name = name #defines the private attribute name
+        self.__bill_amount = bill_amount #defines the private attribute bill_amount
+
+    @property
+    def name(self): #getter method for name
+        return self.__name #returns the value of the private attribute name
+
+    @property
+    def bill_amount(self): #getter method for bill_amount
+        return self.__bill_amount #returns the value of the private attribute bill_amount
