@@ -47,10 +47,25 @@ class PhilHealth_Patient(Patient):
     def display_patient_type(self):
         print("PhilHealth Patient") #prints that the patient is PhilHealth patient
 
-patient1 = Patient()
+patient1 = Patient("Juan Dela Cruz", 15000.00) #creates an object of the class Patient
+patient2 = Senior_Patient("Maria Santos", 15000.00) #creates an object of the class Senior_Patient
+patient3 = PhilHealth_Patient("Pedro Reyes", 15000.00) #creates an object of the class PhilHealth_Patient
+
 print ("Hospital Billing System")
 print ("-----------------------")
-print ("Patient Name:" f"display_patient_type()")BAKLA AKO
-    
+print (f"Patient Name: {patient1.get_name()}")
+print (f"Patient Type: {patient1.display_patient_type()}")
+print (f"Original Bill: {patient1.get_bill_amount()}")
+print (f"Final Bill: {patient1.calculate_bill()}")
+print("    ")
 
-    
+print(f"Patient Name: {patient2.get_name()}")
+print(f"Patient Type: {patient2.display_patient_type()}")
+print(f"Original Bill: {patient2.get_bill_amount()}")
+print(f"Final Bill: {patient2.calculate_bill()}")
+print("    ")
+
+print(f"Patient Name: {patient3.get_name()}")
+print(f"Patient Type: {patient3.display_patient_type()}")
+print(f"Original Bill: {patient3.get_bill_amount()}")
+print(f"Final Bill: {patient3.calculate_bill()}")
