@@ -50,7 +50,7 @@ class PhilHealth_Patient(Patient):
 patient1 = Patient()
 print ("Hospital Billing System")
 print ("-----------------------")
-print ("Patient Name:" f"display_patient_type()") 
+print ("Patient Name:" f"display_patient_type()")BAKLA AKO
     
 
     
