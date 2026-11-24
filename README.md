@@ -32,3 +32,5 @@
 [View my SG10-Method Overriding](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg10_methodoverriding.py)
 ### SG11 - Polymorphism Activity 1
 [View my SG11-Polymorphism](https://github.com/yccchn/9platinumcs3/blob/main/Q2/sg11_polymorphism)
+### SG11 - Polymorphism Activity 2
+[View my SG11-Polymorphism]()
